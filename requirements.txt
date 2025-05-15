@@ -1,0 +1,14 @@
+selenium==4.30.0
+selenium-stealth==1.0.6
+webdriver-manager==4.0.2
+beautifulsoup4==4.13.3
+pandas==2.2.3
+seaborn==0.13.2
+matplotlib==3.9.4
+ipython==8.12.3
+wordcloud==1.9.4
+stop-words==2018.7.23
+plotly==6.0.1
+scipy==1.13.1
+numpy==1.26.0
+streamlit==1.45.0
