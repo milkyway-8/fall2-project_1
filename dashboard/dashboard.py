@@ -11,15 +11,15 @@ st.sidebar.header("Навигация")
 
 @st.cache_data
 def load_italian_restaurants():
-    df_ital = pd.read_excel('/Users/damiraalimallaeva/PycharmProjects/PythonProject/project_1/italian_new.xlsx')
+    df_ital = pd.read_excel('/Users/damiraalimallaeva/PycharmProjects/PythonProject/italian_final.xlsx')
     return df_ital
 
 def load_georgian_restaurants():
-    df_georg = pd.read_excel('/Users/damiraalimallaeva/PycharmProjects/PythonProject/project_1/georgian_new.xlsx')
+    df_georg = pd.read_excel('/Users/damiraalimallaeva/PycharmProjects/PythonProject/georgian_final.xlsx')
     return df_georg
 
 def load_all_restaurants():
-    df_all= pd.read_excel('/Users/damiraalimallaeva/PycharmProjects/PythonProject/project_1/all_restaurants.xlsx')
+    df_all= pd.read_excel('/Users/damiraalimallaeva/PycharmProjects/PythonProject/restaurants_final.xlsx')
     return df_all
 
 
@@ -302,4 +302,3 @@ elif st.session_state.page == "Выводы & рекомендации":
              "В будущем хотелось бы собрать больше информации о ресторанах с сайтов, которые предоставляют такую информацию. (Irecommend в этом плане немного скудный). Также можно в будущем анализировать отзывы не только которые отображаются на главной странице, но и те, которые видны при переходе на вкладку 'Читать все отзывы'.")
 
     st.write('Мое исследование может быть полезно маркетологам ресторанов для разработки стратегии продвижения по привлечению новых клиентов, они могут увидеть рейтинг своего ресторана относительно других. Быть может, шеф-повара, благодаря облаку слов, смогут проанализировать часто встречащиеся блюда и сформировать меню в соответствии с результатами. Логику моего исследования можно повторить с любыми ресторанами сайта, других сайтов с ресторанами. Поменяв названия колонок, адаптиров их под новую тему, можно анализировать развлечения, отели и так далее.')
-
